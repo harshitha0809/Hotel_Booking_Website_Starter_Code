@@ -21,14 +21,13 @@ header {
     left:0;
     width: 100%;
     height:auto;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
 }
 .logo{
     height: 60px;
     width: 60px;
-}
-header >img {
-height: 60px;
-width: 60px;
 }
 footer {
     background-color: rosybrown;
@@ -37,22 +36,29 @@ footer {
     position: fixed;
     height: auto;
     top:auto;
+    left:0;
+    display: flex;
+    justify-content:space-between;
+    vertical-align: middle;
+    padding: 1%;
 }
 
 .social-icons {
     height :20px;
     width : 22px;
-    margin-top:15px;
+    /* margin-top:15px; */
     padding: 2px;
 }
 
 .login {
     position: absolute;
-    top: 15px;
+    /* top: 15px; */
     right: 5px;
     text-decoration: none;
     color: black;
     font-weight: bold;
+    margin: 1%;
+    margin-right: 10px;
 }
 #contactus{
     position: relative;
@@ -65,4 +71,7 @@ main{
     width: 100vw;
     margin:0 auto;
     padding: 50px 20px;
+}
+#copyright{
+    font-size: 10px;
 }
